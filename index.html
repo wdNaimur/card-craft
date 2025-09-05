@@ -4,9 +4,304 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CardCraft</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>This will be cards Gallery Page. Where user can select the design.</h1>
+    <header class="container">Settings will be added later</header>
+    <main class="container">
+      <!-- layout class will be injected here  -->
+      <section class="layout__grid">
+        <div class="card-minimal" style="display: none">
+          <figure class="card-minimal__header">
+            <img
+              class="card-minimal__header-image"
+              src="./assets/images/Web-Developer-Portfolio-Hero.webp"
+              alt="Dynamic Alt Tag"
+              loading="lazy"
+            />
+            <span class="card-minimal__header-links"
+              ><button class="card-minimal__header-links-eye">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  />
+                </svg>
+              </button>
+            </span>
+          </figure>
+
+          <div class="card-minimal__info-box">
+            <span class="card-minimal__tag">tag</span>
+            <h3 class="card-minimal__title">Web Developer Portfolio Hero</h3>
+          </div>
+        </div>
+        <div class="card-full-image">
+          <!-- Top Section -->
+          <div class="card-full-image__header">
+            <div class="card-full-image__header-top">
+              <span class="card-full-image__tag">Full Page Template</span>
+              <span>
+                <a class="card-full-image__video-link" href="#">
+                  Video
+                  <span class="card-full-image__arrow"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="card-full-image__image-wrapper">
+            <img
+              src="https://nicolaipalmkvist.com/wp-content/uploads/elementor/thumbs/See-Greenbird-Agency-r86613uoq1alhtm8h3zt84sxcjgdjt35k0gp02zrxk.webp"
+              alt="GreenBird Agency"
+              class="card-full-image__image"
+            />
+          </div>
+
+          <!-- Text and Buttons -->
+          <div class="card-full-image__content">
+            <h3 class="card-full-image__heading">GreenBird Agency</h3>
+            <p class="card-full-image__paragraph">
+              Sustainable tech agency template
+            </p>
+            <div class="card-full-image__buttons">
+              <button class="card-full-image__button-primary">
+                <span>Import</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button class="card-full-image__button-secondary">
+                <span>Live Demo</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-full-image">
+          <!-- Top Section -->
+          <div class="card-full-image__header">
+            <div class="card-full-image__header-top">
+              <span class="card-full-image__tag">Full Page Template</span>
+              <span>
+                <a class="card-full-image__video-link" href="#">
+                  Video
+                  <span class="card-full-image__arrow"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="card-full-image__image-wrapper">
+            <img
+              src="https://nicolaipalmkvist.com/wp-content/uploads/elementor/thumbs/See-Greenbird-Agency-r86613uoq1alhtm8h3zt84sxcjgdjt35k0gp02zrxk.webp"
+              alt="GreenBird Agency"
+              class="card-full-image__image"
+            />
+          </div>
+
+          <!-- Text and Buttons -->
+          <div class="card-full-image__content">
+            <h3 class="card-full-image__heading">GreenBird Agency</h3>
+            <p class="card-full-image__paragraph">
+              Sustainable tech agency template
+            </p>
+            <div class="card-full-image__buttons">
+              <button class="card-full-image__button-primary">
+                <span>Import</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button class="card-full-image__button-secondary">
+                <span>Live Demo</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-full-image">
+          <!-- Top Section -->
+          <div class="card-full-image__header">
+            <div class="card-full-image__header-top">
+              <span class="card-full-image__tag">Full Page Template</span>
+              <span>
+                <a class="card-full-image__video-link" href="#">
+                  Video
+                  <span class="card-full-image__arrow"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="card-full-image__image-wrapper">
+            <img
+              src="https://nicolaipalmkvist.com/wp-content/uploads/elementor/thumbs/See-Greenbird-Agency-r86613uoq1alhtm8h3zt84sxcjgdjt35k0gp02zrxk.webp"
+              alt="GreenBird Agency"
+              class="card-full-image__image"
+            />
+          </div>
+
+          <!-- Text and Buttons -->
+          <div class="card-full-image__content">
+            <h3 class="card-full-image__heading">GreenBird Agency</h3>
+            <p class="card-full-image__paragraph">
+              Sustainable tech agency template
+            </p>
+            <div class="card-full-image__buttons">
+              <button class="card-full-image__button-primary">
+                <span>Import</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button class="card-full-image__button-secondary">
+                <span>Live Demo</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
