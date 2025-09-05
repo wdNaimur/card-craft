@@ -18,8 +18,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem; /* 16px */
   line-height: 1.5;
-  color: #fff;
-  background-color: #1a1a1a;
+  color: #1a1a1a;
+  background-color: #fff;
 }
 
 /* Container like Bootstrap */
